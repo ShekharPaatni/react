@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+;
+}
+body{
+    font-family:'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif;
+    background: #d2d6de;
+    font-size: 14px;
+}
+.login-box{
+    width: 360px;
+    margin: 7% auto;
+}
+.login-logo{
+    text-align: center;
+    font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 30px;
+    margin-bottom: 25px;
+ }
+.login-logo a{
+    color: #444;
+    text-decoration: none;
+}
+b{
+    font-weight: 700;
+    color: #555;
+}
+.txt{
+    display: block;
+    width: 100%;
+    height: 43px;
+    margin-bottom: 10px;
+    padding: 6px 12px;
+    font-size: 14px;
+    color: #555;
+    border: 1px solid #ccc;
+    background-color: white;
+    background-image: none;
+    border-radius: 4px;
+}
+.txt:focus{
+    outline: none;
+    border-color: #59D1C6;
+}
+.login-body{
+    display: block;
+    width: auto;
+    background: white;
+    text-align: center;
+    padding: 20px;
+}
+.box-msg{
+    color: #666;
+    margin: 0px;
+    text-align: center;
+    padding: 0px 20px 20px 20px;
+}
+.login-box-sub{
+    display: block;
+    margin-bottom: 18%;
+}
+.login-box-sub-check{
+    display: inline-block;
+    float: left;
+    vertical-align: bottom;
+}
+.login-box-sub-check span{
+    vertical-align: 10%
+}
+.login-box-sub-check-btn{
+    display: inline-block;
+    float: right;
+}
+.ftn{
+    clear: both;
+    content: "";
+    display: block;
+    text-align: left;
+}
+.ftn a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #3c8dbc;
+    cursor: auto;
+    ine-height: 20px;
+}
+.login-btn{
+    padding: 8px 21px;
+    background-color: #3c8dbc;
+    color: white;
+    border-color: #367fa9;;
+    box-shadow: none;
+    border-radius: 0;
+    border-width: 1px;
+    border: 1px solid transparent;
+    font-size: 14px;
+    font-weight: 400;
+}
+.login-btn:hover{
+    background-color: #367fa9;
+}
+.login-box-check{
+    transform: scale(2);
+    -ms-transform: scale(2);
+    -webkit-transform: scale(2);
+    margin-right: 10px;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    border: 1px solid white;
+    box-shadow: 0px 0px 1px #555;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+.login-box-sub-check span{
+    color: #555;
+    font-size: 14px;
+    font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+.error{
+    color: red;
+    font-size: 11px;
+    margin-bottom: 2px;
+}
